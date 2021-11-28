@@ -80,8 +80,8 @@ router.put("/:id", (req, res) => {
     where: {
       id: req.params.id,
     },
-  }).then((dbUserData) => {
-    res.json(dbUserData);
+  }).then((UserData) => {
+    res.json(UserData);
   });
 });
 
